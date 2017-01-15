@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+
+.login{
+    background-color: #ffffff;
+    height:400px;
+    margin-left: 20px;
+}
+
+.signup{
+    background-color: #ffffff;
+    height:270px;
+    margin-left: 20px;
+}
+
+.login_form{
+    font-size: 20px;
+    padding:30px;
+    border:2px solid black;
+    border-radius: 20px;
+    border-color: #005569;
+    height:300px;
+}
+
+.signup_form{
+    border:2px solid #005569;
+    padding:30px;
+    border-radius: 20px;
+    width:100%;
+}
+
+.error_exists{
+	font-size: 25px;
+    color:red;
+    margin-left:50px;
+    margin-top:280px;
+}
+
+.main{
+    background-color: #005569;
+    color: #ffffff;
+    font-size: 50px;
+    height: 80px;
+}
+
+.acc_btn{
+    height:70px;
+    margin-top: 280px;
+    width:300px;
+    font-size: 25px !important;
+}
+
+.error{
+    font-size: 15px;
+    color: red;
+}
+
+img{
+	display:none;
+	width:100%;
+	height:290px !important;
+	margin-top:100px;
+}
+
+#msg{
+	font-size: 30px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	margin-top:30px;
+}

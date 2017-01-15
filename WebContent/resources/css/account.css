@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	padding-top:80px;
+}
+
+.left_bar{
+    background-color: darkgray;
+    height:655px;
+}
+
+h3{
+    cursor: pointer;
+}
+
+.main{
+	display:none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.details{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.heading{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.left_bar a{
+    text-decoration: none !important;
+    color:black;
+}
+
+.left_bar a:hover{
+    color:black;
+}
+
+.error{
+    font-size: 20px;
+    color:red;
+}
+
+.succ{
+	color:green;
+	font-size:20px;
+}
+
+#rate_card{
+	display:none;
+}
+
+

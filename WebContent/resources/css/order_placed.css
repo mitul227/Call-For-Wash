@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+.heading{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.msg{
+	font-size:25px;
+	display:none;
+	margin-top:20px;
+}

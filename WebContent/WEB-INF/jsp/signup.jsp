@@ -30,9 +30,9 @@
                         	<input class="form-control" placeholder="Name" type="text" name="name" id="name">
                         	<p id="error_name" class="error"></p>
                         	<form:errors path="user.name" class="error"/><br>
-                        	<input class="form-control" placeholder="Number" type="text" name="phone_no" id="mobile">
+                        	<input class="form-control" placeholder="Number" type="text" name="phoneNo" id="mobile">
                         	<p id="error_mobile" class="error"></p>
-                        	<form:errors path="user.phone_no" class="error"/><br>
+                        	<form:errors path="user.phoneNo" class="error"/><br>
 		                	<input class="form-control" placeholder="Password" type="password" name="password" id="password">
 		                	<p id="error_password" class="error"></p>
 		                	<form:errors path="user.password" class="error"/><br>

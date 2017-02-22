@@ -51,22 +51,22 @@
                 <form action="/callforwash/home/password" method="post" class="col-lg-12">
                     <div class="form-group">
                         Current Password
-                        <input id="curr_pass" type="password" class="form-control" name="curr_pass">
+                        <input id="curr_pass" type="password" class="form-control" name="currentPassword">
                         <p id="error_password" class="error"></p>
                         <p class="error">${Msg_pwd }</p>
-		                <form:errors path="acc.curr_pass" class="error"/>
+		                <form:errors path="acc.currentPassword" class="error"/>
                     </div>
                     <div class="form-group">
                         New Password
-                        <input id="new_pass" type="password" class="form-control" name="new_pass">
+                        <input id="new_pass" type="password" class="form-control" name="newPassword">
                         <p id="error_pass_new" class="error"></p>
-		                <form:errors path="acc.new_pass" class="error"/>
+		                <form:errors path="acc.newPassword" class="error"/>
                     </div>
                     <div class="form-group">
                         Confirm Password
-                        <input id="new_pass_confirm" type="password" class="form-control" name="new_pass_confirm">
+                        <input id="new_pass_confirm" type="password" class="form-control" name="newPasswordConfirm">
                         <p id="error_pass_eq" class="error"></p>
-		                <form:errors path="acc.new_pass_confirm" class="error"/>
+		                <form:errors path="acc.newPasswordConfirm" class="error"/>
 		                <p class="error">${Msg_pwd_conf }</p>
                     </div>
                     <br>

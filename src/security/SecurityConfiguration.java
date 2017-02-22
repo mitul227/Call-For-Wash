@@ -11,22 +11,55 @@
 //@Configuration
 //@EnableWebSecurity
 //public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+//	
+//	@Override
+//	protected void configure(HttpSecurity http) throws Exception {
+//		http
+//			.authorizeRequests()
+//				.anyRequest().authenticated()
+//				.and()
+//			.formLogin()
+//				.loginPage("/")
+//				.permitAll();
+//	}
 //
+////    @Override
+////    protected void configure(HttpSecurity http) throws Exception {
+////    	http
+////		.authorizeRequests()
+////			.antMatchers("/","/home/**","/login","/signup","/home","/logout").permitAll()
+////			.antMatchers("/admin/**").hasRole("ADMIN")
+////			.anyRequest().authenticated()
+////			.and()
+////		.formLogin();
+////			//.loginPage("/admin")
+////			//.and()
+////		//.httpBasic();
+////    	http.csrf().disable();
+//////    	http
+//////    		.authorizeRequests()
+//////    			.antMatchers("/","/*admin*/**").access("hasRole('ADMIN')")
+//////    			//.anyRequest().authenticated()
+//////    			.and()
+//////    		.formLogin();
+////    			//.loginPage("/login")
+////    			//.permitAll();
+////    	//http.csrf().disable();
+////    			//.and
+////    			//.antMatchers("/admin/*").access("hasRole('ADMIN')");
+//////        http.authorizeRequests().antMatchers("/admin").permitAll()
+//////                .antMatchers("/home").access("hasRole('USER')")
+//////                .antMatchers("/home/*").access("hasRole('USER')")
+//////                .and()
+//////                .formLogin().loginPage("/")
+//////                .and()
+//////                .csrf().disable();
+////    }
+//    
 //    @Autowired
 //    public void configureGlobalSecurity(AuthenticationManagerBuilder auth)
 //            throws Exception {
 //        auth.inMemoryAuthentication().withUser("mitul").password("yyyyyy")
-//                .roles("USER", "ADMIN");
-//    }
-//    
-//    @Override
-//    protected void configure(HttpSecurity http) throws Exception {
-//        http.authorizeRequests().antMatchers("/").permitAll()
-//                .antMatchers("/home").access("hasRole('USER')")
-//                .antMatchers("/home/*").access("hasRole('USER')")
-//                .and()
-//                .formLogin().loginPage("/")
-//                .and()
-//                .csrf().disable();
+//                .roles("ADMIN");
 //    }
 //}

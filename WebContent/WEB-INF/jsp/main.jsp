@@ -30,9 +30,9 @@
                 <div class="login_form">
                 	<form action="/callforwash/login" method="post" id="login">
                     	<div class="form-group">     
-                        	Mobile <input class="form-control" type="text" placeholder="Mobile" name="phone_no" id="mobile_log">
+                        	Mobile <input class="form-control" type="text" placeholder="Mobile" name="phoneNo" id="mobile_log">
                         	<p id="error_mob" class="error"></p>
-                        	<form:errors path="user.phone_no" class="error"/>
+                        	<form:errors path="user.phoneNo" class="error"/>
                     	</div>
                     	<div class="form-group">  
                         	Password <input class="form-control" type="password" placeholder="Password" name="password" id="password_log">

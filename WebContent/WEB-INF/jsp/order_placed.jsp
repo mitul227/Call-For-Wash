@@ -48,15 +48,15 @@
             <table class="table table-bordered table-striped">
                 <tr>
                     <td><b>Order ID</b></td>
-                    <td>${order.order_id}</td>
+                    <td>${order.orderId}</td>
                 </tr>
                 <tr>
                     <td><b>Phone Number</b></td>
-                    <td>${order.phone_no}</td>
+                    <td>${order.phoneNo}</td>
                 </tr>
                 <tr>
                     <td><b>Service</b></td>
-                    <td>${order.service_type}</td>
+                    <td>${order.serviceType}</td>
                 </tr>
                 <tr>
                     <td><b>Address</b></td>
@@ -68,11 +68,11 @@
 <!--                 </tr> -->
                 <tr>
                     <td><b>Pickup Date</b></td>
-                    <td>${order.pickup_date}</td>
+                    <td>${order.pickupDate}</td>
                 </tr>
                 <tr>
                     <td><b>Pickup Time</b></td>
-                    <td>${order.pickup_time}</td>
+                    <td>${order.pickupTime}</td>
                 </tr>
 <!--                 <tr> -->
 <!--                     <td><b>Bill</b></td> -->

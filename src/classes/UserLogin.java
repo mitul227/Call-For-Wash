@@ -2,19 +2,19 @@ package classes;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class user_login {
+public class UserLogin {
 	
 	@NotEmpty(message="Enter a Mobile Number")
-	String phone_no;
+	String phoneNo;
 	
 	@NotEmpty(message="Enter Password")
 	String password;
 	
-	public String getPhone_no() {
-		return phone_no;
+	public String getPhoneNo() {
+		return phoneNo;
 	}
-	public void setPhone_no(String phone_no) {
-		this.phone_no = phone_no;
+	public void setPhoneNo(String phoneNo) {
+		this.phoneNo = phoneNo;
 	}
 	public String getPassword() {
 		return password;

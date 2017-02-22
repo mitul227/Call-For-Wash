@@ -13,7 +13,7 @@
     http://www.springframework.org/schema/security/spring-security.xsd">
 
 
-	<context:component-scan base-package="controller,dao,classes,security"></context:component-scan>
+	<context:component-scan base-package="controller,dao,classes,security,admin_dao"></context:component-scan>
 	
 	<context:annotation-config />
 

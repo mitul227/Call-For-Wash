@@ -57,14 +57,14 @@
                     </div>
                     <div class="form-group">
                         Phone number
-                        <input id="mobile" type="text" class="form-control" value="${phone_no}" name="phone_no">
+                        <input id="mobile" type="text" class="form-control" value="${phoneNo}" name="phoneNo">
                         <p id="error_mobile" class="error"></p>
-                        <form:errors path="acc.phone_no" class="error"/>
+                        <form:errors path="acc.phoneNo" class="error"/>
                         <p class="error">${Msg }</p>
                     </div>
                     <div class="form-group">
                         Address
-                        <textarea rows="5" name="address" class="form-control" id="address">${user_address }</textarea>
+                        <textarea rows="5" name="address" class="form-control" id="address">${userAddress }</textarea>
                         <p id="error_address" class="error"></p>
                         <form:errors path="acc.address" class="error"/>
                     </div>

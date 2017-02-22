@@ -4,12 +4,12 @@ import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class acc_details {
+public class ChangeAccountDetails {
 	@NotEmpty(message="Enter your name")
 	String name;
 	
 	@Pattern(regexp="[0-9]{10}",message="Enter a Valid Mobile Number")
-	String phone_no;
+	String phoneNo;
 	
 	@NotEmpty(message="Enter your address")
 	String address;
@@ -22,12 +22,12 @@ public class acc_details {
 		this.name = name;
 	}
 
-	public String getPhone_no() {
-		return phone_no;
+	public String getPhoneNo() {
+		return phoneNo;
 	}
 
-	public void setPhone_no(String phone_no) {
-		this.phone_no = phone_no;
+	public void setPhoneNo(String phoneNo) {
+		this.phoneNo = phoneNo;
 	}
 
 	public String getAddress() {

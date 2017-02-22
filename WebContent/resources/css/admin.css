@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	font-size:18px;
+}
+
+li:hover{
+	background-color:silver;
+}
+
+.left{
+	margin:0px;
+	
+}
+
+a{
+	text-decoration:none !important;
+	color:black;
+}

@@ -50,7 +50,7 @@
         	<form action="/callforwash/home/order_placed" method="post" class="col-lg-12 col-lg-offset-1">
         		<div class="row">
         			<div class="form-group col-lg-6 col-md-6">
-        				<select name="service_type" class="form-control" id="service">
+        				<select name="serviceType" class="form-control" id="service">
         					<option value="" hidden>Select Service</option>
                         	<option  value="Dry Cleaning">Dry Cleaning</option>
                         	<option value="Wash And Iron">Wash And Iron</option>
@@ -58,13 +58,13 @@
                 	</div>
                 	<div class="col-lg-6 col-md-6">
                 		<p id="error_service" class="error"></p>
-                		<form:errors path="order.service_type" class="error" />
+                		<form:errors path="order.serviceType" class="error" />
                 	</div>
                 </div>
                 <div class="row">
                 	<div class="form-group col-lg-6 col-md-6">
                 		<b>Address</b>
-                		<textarea rows="5" name="address" class="form-control" id="address">${user_address }</textarea>
+                		<textarea rows="5" name="address" class="form-control" id="address">${userAddress }</textarea>
                 	</div>
                 	<div class="col-lg-6 col-md-6">
                 		<p class="error" id="error_address"></p>
@@ -74,23 +74,23 @@
                 <div class="row">
                 	<div class="form-group col-lg-6 col-md-6">
                 		<b>Number</b>
-                		<input class="form-inline form-control" type="text" value=${phone_no } name="phone_no" readonly>
+                		<input class="form-inline form-control" type="text" value=${phoneNo } name="phoneNo" readonly>
                 	</div>`
                 </div>
                 <div class="row">
                 	<div class="form-group col-lg-6 col-md-6">
                 		<b>Pickup Date</b>
-                		<input class="form-control" id="pickup_date" name="pickup_date" readonly>
+                		<input class="form-control" id="pickup_date" name="pickupDate" readonly>
                 	</div>
                 	<div class="col-lg-6 col-md-6">
                 		<p class="error" id="error_date"></p>
-                		<form:errors path="order.pickup_date" class="error" />
+                		<form:errors path="order.pickupDate" class="error" />
                 	</div>
                 </div>
                 <div class="row">
                 	<div class="form-group col-lg-6 col-md-6">
                 		<b>Pickup Time</b>
-                        <select name="pickup_time" class="form-control" id="time">
+                        <select name="pickupTime" class="form-control" id="time">
 				        	<option value="" hidden>Pickup Time</option>
 				            <option value="8:00  - 10:00 am" id="1">&nbsp;8:00 &nbsp; - 10:00 am</option>
 				            <option value="10:00 - 12:00 am" id="2">10:00 &nbsp;- 12:00 am</option>
@@ -101,7 +101,7 @@
                    	</div>
                  	<div class="col-lg-6 col-md-6">
                      	<p class="error" id="error_time"></p>
-                        <form:errors path="order.pickup_time" class="error" />
+                        <form:errors path="order.pickupTime" class="error" />
                     </div>
                 </div>
                 <br>

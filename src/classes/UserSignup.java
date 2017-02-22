@@ -5,7 +5,7 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class user_signup {
+public class UserSignup {
 	
 	@NotEmpty(message="Enter your name")
 	private String name;
@@ -15,7 +15,7 @@ public class user_signup {
 	private String password;
 	
 	@Pattern(regexp="[0-9]{10}",message="Enter a Valid Mobile Number")
-	private String phone_no;
+	private String phoneNo;
 	
 	@NotEmpty(message="Enter your address")
 	private String address;
@@ -44,12 +44,12 @@ public class user_signup {
 		this.password = password;
 	}
 
-	public String getPhone_no() {
-		return phone_no;
+	public String getPhoneNo() {
+		return phoneNo;
 	}
 
-	public void setPhone_no(String phone_no) {
-		this.phone_no = phone_no;
+	public void setPhoneNo(String phoneNo) {
+		this.phoneNo = phoneNo;
 	}
 
 }

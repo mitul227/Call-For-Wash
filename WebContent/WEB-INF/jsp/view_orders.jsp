@@ -50,21 +50,27 @@
         	<c:out value="${er }"/>
         </div>
         <c:if test="${empty er}">
-        	<div class="col-lg-8 col-md-8 col-lg-offset-3 col-md-offset-3 main">
+        	<div class="col-lg-9 col-md-9 col-lg-offset-3 col-md-offset-3 main">
         		<h1>Order History</h1><br>
         		<table class="table table-bordered table-striped">
-        			<th>Order ID</th>
-        			<th>Service Type</th>
-        			<th>PickUp Date</th>
-        			<th>PickUp Time</th>
-        			<th>Ordered On</th>
+        			<tr>
+        				<th>Order ID</th>
+        				<th>Service Type</th>
+        				<th>PickUp Date</th>
+        				<th>PickUp Time</th>
+        				<th>Ordered On</th>
+        				<th>Status</th>
+        				<th>Bill</th>
+        			</tr>
         			<c:forEach var="order" items="${orderList}" varStatus="status">
         				<tr>
-        					<td>${order.order_id }</td>
-        					<td>${order.service_type}</td>
-        					<td>${order.pickup_date }</td>
-        					<td>${order.pickup_time }</td>
-        					<td>${order.ordered_on }</td>
+        					<td>${order.orderId }</td>
+        					<td>${order.serviceType}</td>
+        					<td>${order.pickupDate }</td>
+        					<td>${order.pickupTime }</td>
+        					<td>${order.orderedOn }</td>
+        					<td>${order.status }</td>
+        					<td>${order.bill }</td>
         				</tr>
         			</c:forEach>
         		</table>

@@ -1,6 +1,6 @@
 package classes;
 
-public class item_prices {
+public class ItempPrices {
 	int lowers=20;
 	int uppers=40;
 	int towels=30;

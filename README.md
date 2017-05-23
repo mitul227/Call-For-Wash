@@ -8,3 +8,5 @@ Users can view their order history as well.
 Admin panel has also been included where every relevant information like number of orders,users,info about users is included
 
 Passwords are hashed by SHA-256 algorithm
+
+Sample Images have been included

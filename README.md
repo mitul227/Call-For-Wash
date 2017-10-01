@@ -9,6 +9,5 @@ Admin panel has also been included where every relevant information like number 
 
 Passwords are hashed by SHA-256 algorithm
 
-Sample Images have been included
+![1](https://user-images.githubusercontent.com/13919808/31054725-f38b09c0-a6d6-11e7-974d-9b33319fab56.png)
 
-![Screenshot](1.png)

@@ -10,3 +10,5 @@ Admin panel has also been included where every relevant information like number 
 Passwords are hashed by SHA-256 algorithm
 
 Sample Images have been included
+
+![Screenshot](1.png)
